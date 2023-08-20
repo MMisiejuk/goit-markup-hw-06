@@ -262,7 +262,6 @@ section {
 }
 
 .modal-boxes {
-    margin-bottom: 8px;
     padding-left: 24px;
 }
 
@@ -333,17 +332,17 @@ section {
 
 .modal-politics {
     display: flex;
+    padding-left: 24px;
     margin-top: 16px;
-    justify-content: center;
-    align-items: center;
 }
 
 .politics-agree {
-    border: 1px solid;
+    border: 1px solid rgba(46, 47, 66, 0.40);
     width: 16px;
     height: 16px;
-    border-radius: 2px;
+    border-radius: 4px;
     margin-right: 8px;
+    background-color: var(--white-color);
 }
 
 .politics {
@@ -351,11 +350,14 @@ section {
     letter-spacing: 0.05em;
     line-height: 1.2;
     color: var(--subtle-text);
+    font-size: 12px;
 }
 
 .politics-link {
     text-decoration: underline;
     color: var(--main-color);
+    line-height: 1.3;
+    font-size: 12px;
 }
 
 .modal-btn {
