@@ -345,9 +345,6 @@ section {
     background-color: var(--white-color);
 }
 
-input[type=checkbox]:checked:disabled + label:before {
-    background-color: var(--main-color);
-    }
 
 .politics {
     font-weight: 400;
@@ -363,6 +360,7 @@ input[type=checkbox]:checked:disabled + label:before {
     line-height: 1.3;
     font-size: 12px;
 }
+
 
 .modal-btn {
     width: 169px;
