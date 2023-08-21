@@ -345,6 +345,10 @@ section {
     background-color: var(--white-color);
 }
 
+input[type=checkbox]:checked:disabled + label:before {
+    background-color: var(--main-color);
+    }
+
 .politics {
     font-weight: 400;
     letter-spacing: 0.05em;
