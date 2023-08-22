@@ -345,6 +345,43 @@ section {
     background-color: var(--white-color);
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.check-icon {
+    fill: var(--white-color);
+}
+
+
+.modal-check-text span {
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    transition: background-color 250ms var(--transition), border 250ms var(--transition) fill 250ms var(--transition);
+}
+
+.modal-check:checked+.modal-check-text span {
+    background-color: var(--pressed-state);
+    fill: var(--white-color);
+    border: none;
+}
+
+
 
 .politics {
     font-weight: 400;
@@ -353,6 +390,8 @@ section {
     color: var(--subtle-text);
     font-size: 12px;
 }
+
+
 
 .politics-link {
     text-decoration: underline;
