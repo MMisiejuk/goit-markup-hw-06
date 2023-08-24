@@ -336,14 +336,6 @@ section {
     margin-top: 16px;
 }
 
-.politics-agree {
-    border: 1px solid rgba(46, 47, 66, 0.40);
-    width: 16px;
-    height: 16px;
-    border-radius: 4px;
-    margin-right: 8px;
-    background-color: var(--white-color);
-}
 
 .visually-hidden {
     position: absolute;
@@ -370,12 +362,13 @@ section {
     border-radius: 2px;
     margin-right: 8px;
     align-items: center;
+    border: 1px solid var(--subtle-text);
     justify-content: center;
     fill: transparent;
     transition: background-color 250ms var(--transition), border 250ms var(--transition) fill 250ms var(--transition);
 }
 
-.modal-check:checked+.modal-check-text span {
+.modal-check:checked + .modal-check-text span {
     background-color: var(--pressed-state);
     fill: var(--white-color);
     border: none;
