@@ -79,7 +79,7 @@
                 <div class="modal-boxes">
                   <label class="modal-label" for="name">Name</label>
                   <div class="form-boxes">
-                    <input class="index-input" id="name" type="text" />
+                    <input class="index-input" id="name" type="text" required/>
                     <svg
                       class="form-icon"
                       width="18"
@@ -93,7 +93,7 @@
                 <div class="modal-boxes">
                   <label class="modal-label" for="Phone">Phone</label>
                   <div class="form-boxes">
-                    <input class="index-input" type="number" id="Phone" />
+                    <input class="index-input" type="number" id="Phone" required/>
                     <svg
                       class="form-icon"
                       width="18"
@@ -107,7 +107,7 @@
                 <div class="modal-boxes">
                   <label class="modal-label" for="email">Email</label>
                   <div class="form-boxes">
-                    <input class="index-input" id="email" type="email" />
+                    <input class="index-input" id="email" type="email" required/>
                     <svg
                       class="form-icon"
                       width="18"
@@ -127,6 +127,7 @@
                       rows="7"
                       cols="60"
                       placeholder="Text input"
+                      
                     ></textarea>
                   </div>
                 </div>
@@ -136,7 +137,7 @@
                   id="user-privacy"
                   name="user-privacy"
                   value="true"
-                  class="modal-check visually-hidden"
+                  class="modal-check visually-hidden" required
                 />
                 <label for="user-privacy" class="modal-politics modal-check-text">
                   <span class="modal-check-span">
@@ -518,7 +519,7 @@
           <p class="subscribe-title">Subscribe</p>
           <form>
             <label for="mail">
-              <input class="footer-email" id="mail" placeholder="E-mail" />
+              <input class="footer-email" id="mail" placeholder="E-mail" required/>
             </label>
             <button class="footer-btn" type="submit">
               Subscribe<span class="footer-send-icon"
