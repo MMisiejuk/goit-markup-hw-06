@@ -233,6 +233,7 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+    padding: 72px 24px 24px;
 }
 
 .close-btn {
@@ -257,13 +258,11 @@ section {
     letter-spacing: 0.03em;
     text-align: center;
     justify-content: center;
-    margin-top: 72px;
+    
     margin-bottom: 16px;
 }
 
-.modal-boxes {
-    padding-left: 24px;
-}
+
 
 .modal-label {
     font-size: 12px;
@@ -332,7 +331,7 @@ section {
 
 .modal-politics {
     display: flex;
-    padding-left: 24px;
+    
     margin-top: 16px;
 }
 
@@ -348,10 +347,6 @@ section {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
-.check-icon {
-    fill: var(--white-color);
 }
 
 
